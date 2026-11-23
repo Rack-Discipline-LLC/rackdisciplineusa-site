@@ -239,6 +239,8 @@
   function start() {
     var choice = effectiveChoice();
     if (choice) apply(choice);
+    // No choice yet: remove any Google Analytics cookies left from before this banner existed.
+    else clearAnalyticsCookies();
     if (!currentChoice() && !gpc) showBanner(false);
     if (location.hash === '#cookie-settings') openSettings();
   }

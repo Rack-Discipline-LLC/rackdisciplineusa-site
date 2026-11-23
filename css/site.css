@@ -275,23 +275,9 @@ main {
   position: absolute;
   inset: 0 calc(50% - 50vw);
   z-index: -1;
-  background: #626365;
+  background: #e9eaec;
 }
 
-.home .hero__logo img { filter: brightness(0) invert(1); }
-.home .hero__audience { color: rgba(255, 255, 255, 0.78); }
-.home .hero__lede { color: #fff; }
-
-.home .pill-link {
-  color: var(--ink);
-  background: #fff;
-  border-color: #fff;
-}
-
-.home .pill-link:hover {
-  background: rgba(255, 255, 255, 0.88);
-  border-color: rgba(255, 255, 255, 0.88);
-}
 
 /* —— Sections —— */
 .section {
